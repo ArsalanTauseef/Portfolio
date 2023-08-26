@@ -18,11 +18,11 @@
             <div class="left">Arsalan Tauseef</div>
             <div class="right">
                 <Ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Services</li>
-                    <Li>Projects</Li>
-                    <li>Contact Me</li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <Li><a href="/">Projects</a></Li>
+                    <li><a href="/">Contact Me</a></li>
                 </Ul>
             </div>
 
@@ -32,13 +32,25 @@
         <section class="firstSection">
             <div class="leftSection">Hi, my name is
                 <span class="purple">Arsalan Tauseef</span>
-                <div>And, I'm a Web Devloper</div>
+                <div>And, I'm a passionate</div>
+                <span id="element"></span>
             </div>
             <div class="rightSection">
                 <img src="bg.png" alt="">
             </div>
         </section>
+
+        <section class="secondSection">
+            <h1>My Past Experience</h1>
+        </section>
     </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Designer.', 'SEO Expert.', 'Web Developer.'],
+            typeSpeed: 50,
+        });
+    </script>
 </body>
 
 </html>
